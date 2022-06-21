@@ -1,0 +1,12 @@
+NaN - Not a number (Não é um número);
+
+Tipos primitivos: 
+number
+String
+
+	  window.prompt retorna uma String, é necessário converter.
+      "+" Serve para soma quando for "NUMBER + NUMBER"
+      "+" Serve para concatenação quando for 'String + String'
+      Para conveter de String > Número pode se usar o Number.parseInt(n) ou parseInt(). Para um número com vírula, deve utilizar o parseFloat;
+      Ao utilizar a variavel number, ele faz a converção sozinho.
+      Converter de número > String usa-se o String() oou o n.toString();
