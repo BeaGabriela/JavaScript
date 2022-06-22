@@ -21,16 +21,15 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição.</p>
     <script>
-      var n1 = Number.parseFloat(window.prompt('Digite um número')); // window.prompt retorna uma String, é necessário converter.
-      var n2 = Number.parseFloat( window.prompt('Digite um outro número: '));
+      var n1 = Number(window.prompt('Digite um número')); // window.prompt retorna uma String, é necessário converter.
+      var n2 = Number( window.prompt('Digite um outro número: '));
       var soma = n1 + n2; // O + Serve para adição e também pode servir para concatenação;
       // + Serve para soma quando for "NUMBER + NUMBER"
       // + Serve para concatenação quando for 'String + String'
       // Para conveter de String > Número pode se usar o Number.parseInt(n) ou parseInt(). Para um número com vírula, deve utilizar o parseFloat;
       // Ao utilizar a variavel number, ele faz a converção sozinho.
       // Converter de número > String usa-se o String() oou o n.toString();
-      window.alert('A soma dos valores é: ' + String(soma));
+      window.alert(`A soma de ${n1} e ${n2} é ${s}`);
     </script>
 </body>
 </html>
-22:06

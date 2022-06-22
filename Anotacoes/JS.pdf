@@ -10,3 +10,9 @@ String
       Para conveter de String > Número pode se usar o Number.parseInt(n) ou parseInt(). Para um número com vírula, deve utilizar o parseFloat;
       Ao utilizar a variavel number, ele faz a converção sozinho.
       Converter de número > String usa-se o String() oou o n.toString();
+	  
+Formatação de String's:
+   var s = 'JavaScript';
+	'Eu estou apredendendo s' // Não faz interpolação
+	'Eu estou apredendendo ' + s // Usa concatenação
+    `Eu estou apredendendo $(s)` // Usa template String. O $() chama-se de placeholder, uma forma mais fácil de fazer a concatenação.
