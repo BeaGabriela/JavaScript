@@ -16,3 +16,13 @@ Formatação de String's:
 	'Eu estou apredendendo s' // Não faz interpolação
 	'Eu estou apredendendo ' + s // Usa concatenação
     `Eu estou apredendendo $(s)` // Usa template String. O $() chama-se de placeholder, uma forma mais fácil de fazer a concatenação.
+	
+	Formatação de números: 
+		No node:
+			o nome da variavel + toFixed(Nº de casas que deseja);
+			Por exemplo:
+				var n1 = 1545.5 // Va aparecer apenas uma casa decimal.
+				n1.toFixed(2) vai ser igual a 1545.50 // Vai aparecer duas casas deciamais.
+				n1.toFixed(2).replace('.',',') // Além de aparecer duas casas deciamais, vai trocar de '.' para ','.
+				n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) // Baseado nas configurações entre parênteses, ele transforma o ´umero digitado em um salário. Exemplo: R$ 1.545,50.
+				Ou seja, eu quero localizar para o Brasil ('pt-BR') e currency: 'BRL' Que é dinheiro do Brasil. Pra coloca em dolárs necessita apenas trocar o 'currency:: USD"
