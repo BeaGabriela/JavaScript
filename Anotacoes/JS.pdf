@@ -26,3 +26,19 @@ Formatação de String's:
 				n1.toFixed(2).replace('.',',') // Além de aparecer duas casas deciamais, vai trocar de '.' para ','.
 				n1.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'}) // Baseado nas configurações entre parênteses, ele transforma o ´umero digitado em um salário. Exemplo: R$ 1.545,50.
 				Ou seja, eu quero localizar para o Brasil ('pt-BR') e currency: 'BRL' Que é dinheiro do Brasil. Pra coloca em dolárs necessita apenas trocar o 'currency:: USD"
+				
+Operadores:
+	Aritméticos: São operadores (+, -, *,/,%,**--> ("**" Significa potência. )); Operandos são aqueles que vão fazer os operadores fucionar.
+	Atribuição: É usado o sinal de (=) para atribuir um valor para uma variável. Atribuição simples é quando se declara uma conta, e sua variavelserá o resultado da conta. Já a auto-atribuição é aquela que você atribui um resultado direto, chamando ela mesma, e atribuindo outro valor. Tipo var n = 3, n = n+4 (n será somado com 4, e passará a ser 7);
+		Incremento: Usando  x++ (Onde x recebe +1);
+	Relacionais:
+	Lógicos:
+	Ternários:
+	
+	Procedência de operadores:
+		Exemplo:
+			5 + 3 /2 --> Primeiro é feita a divisão.
+			
+	
+	-->Ordem de precedência:<--
+		Ela analisa todos os parênteses, após analisa as potências, após a (multiplicação, divisão e porcetagem) Lembrando que os três anteriores possuem a mesma ordem de precedência. E por fim, a soma e a subtração. Quando se tem duas variaveis do memso nivel de precedência, começa a conta pela que vem primiero.
