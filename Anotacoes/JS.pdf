@@ -28,12 +28,18 @@ Formatação de String's:
 				Ou seja, eu quero localizar para o Brasil ('pt-BR') e currency: 'BRL' Que é dinheiro do Brasil. Pra coloca em dolárs necessita apenas trocar o 'currency:: USD"
 				
 Operadores:
-	Aritméticos: São operadores (+, -, *,/,%,**--> ("**" Significa potência. )); Operandos são aqueles que vão fazer os operadores fucionar.
+		1 São feitos os operadores aritméticos, depois os relacionais, depois os lógicos.
+		Se tiver todos os operadores lógicos juntos em uma mesma expressão, a ordem de execussão será: "Não", depois "E" e por fim "Ou".
+	Aritméticos: São operadores (+, -, *,/,%,**--> ("**" Significa potência. )); Operandos são aqueles que vão fazer os operadores fucionar. Sempre os primeiros quando tiver junto com um relacional.
+	
 	Atribuição: É usado o sinal de (=) para atribuir um valor para uma variável. Atribuição simples é quando se declara uma conta, e sua variavelserá o resultado da conta. Já a auto-atribuição é aquela que você atribui um resultado direto, chamando ela mesma, e atribuindo outro valor. Tipo var n = 3, n = n+4 (n será somado com 4, e passará a ser 7);
 		Incremento: Usando  x++ (Onde x recebe +1);
-	Relacionais:
-	Lógicos:
-	Ternários:
+		
+	Relacionais: São os operadores(>,<,>=,<=,==;!=) O resultado será sempre um valor booleano;
+		Operador de identidade (===) Ele testa se os dois valores são idênticos, idênticos no mesmo valor e no mesmo tipo. (!==) Desigual restrito, ele meio que pergunta se os tipos das variveis são diferentes;
+	Lógicos: São os operadores (!(Negação), &&(Conjução, 'e'), ||(Dijunções, 'ou')). Depois do ! coloca true/false.
+	
+	Ternários: São os operadores ( ? , :). Possui três partes. Exemplo: "média>=7.0 ? 'Aprovado' : "Reprovado";
 	
 	Procedência de operadores:
 		Exemplo:
