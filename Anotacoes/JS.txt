@@ -48,3 +48,35 @@ Operadores:
 	
 	-->Ordem de precedência:<--
 		Ela analisa todos os parênteses, após analisa as potências, após a (multiplicação, divisão e porcetagem) Lembrando que os três anteriores possuem a mesma ordem de precedência. E por fim, a soma e a subtração. Quando se tem duas variaveis do memso nivel de precedência, começa a conta pela que vem primiero.
+		
+		
+		
+		
+		
+		DOM --> Document Object Model:
+			É um modelo de objetos para docuemntos. Basicamente é um cojunto de objetos dentrodo seu navegador que vai dar acesso
+			aos componentes  internos do website.
+			
+			O DOM não funciona dentro do node.js. O dom está presente quando roda JavaScript no navegador.
+			
+			Árvore Dom é formada por:
+				- window:
+					location: Que diz a localização do seu site, qual a url.
+					document: DOcumento atual;
+					history: O histórico.
+				- html: // Mãe/Pai de head e body.
+					head: cabeçalho. //é filho de html
+						meta.
+						title.
+					body: corpo. //é filho de html
+						h1.
+						p.
+						div
+						
+		 Métodos de acesso: Selecionando
+			Por Marca --> Dentro de  document. O comando é getElementsByTagName()
+			Por ID --> getElementById()
+			Por Nome --> getElementsByName() -- Deve- se uar o [] no final como um vetor, para selecionar a tag escolhida.
+			Por Classe --> getElementsByClassName()
+			Por Seletor(CSS) --> querySelector() ou querySelectorAll()
+			
