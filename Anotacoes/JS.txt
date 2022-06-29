@@ -1,8 +1,30 @@
+JavaScript --> Cliente.
+website--> (Cliente) composto por 'Jornalista'(Conteúdo) - HTML
+								  'Designer' (Aparência) - CSS
+								  'Programador'(Interações) - JS
+								 
+NODE é uma máquina que roda JavaScrit fora do navegador.
+ECMASCRIPT é a linguagem padronizada do JavaScript.
+JQuery - Conjunto de bibliotecas;
 NaN - Not a number (Não é um número);
 
+Identificadores podem começar com letras, $ e _
+	Não podem começar com números 
+	É possivel usar letras con numeros.
+	Pode usar acentos e simbolos.
+	Não pode onter espaços.
+	Não pode palvras reservadas, como 'function', 'alert', etc...
+	
+	
+
 Tipos primitivos: 
-number
+boolean
+number -- infinity, nan
 String
+Null
+underfined
+object(Array)
+function
 
 	  window.prompt retorna uma String, é necessário converter.
       "+" Serve para soma quando for "NUMBER + NUMBER"
@@ -80,3 +102,23 @@ Operadores:
 			Por Classe --> getElementsByClassName()
 			Por Seletor(CSS) --> querySelector() ou querySelectorAll()
 			
+			
+	Eventos DOM:
+	Eventos são tudo o que pode acontecer com uma determinada tag.
+		Mouse:
+			Mover até encostra dentro da div: mouseenter;
+			Continuar movendo o mouse dentro da div: mousemove;
+			Clicar e segurar: mousedown;
+			Após clicar e segurar e Soltar: moouseup;
+			Clique inteiro. Um clique e solta: click;
+			Mover o mouse para fora da Div: mouseout;
+			
+			
+	Função em JavaScript:
+		Conjunto de códigos , é um conjunto de linhas que só serãop executadas quando o evento ocorrer.
+	
+	Bloco em JavaScript:
+		Tem de nomear ele como uma function.
+		Delimitado entre os sinais de chave.
+			
+		
