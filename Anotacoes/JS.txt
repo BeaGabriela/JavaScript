@@ -120,5 +120,30 @@ Operadores:
 	Bloco em JavaScript:
 		Tem de nomear ele como uma function.
 		Delimitado entre os sinais de chave.
-			
+		
+		
+		
+ Condições em JavaScript:
+	Sequências:
+		Exemplo:
+			var n = 3
+				n += 2
+					window.alert(n)
+					
+	Losango: Como um filtro, disponibiliza dois caminhos.
+		if(condição){
+			true
+			} else{
+				false
+				
+	Tipos de condição:
+	 Condição simples: Se a condiçãofot falsa, nada acontece.
+		if(condição){
+		}
+		//Se for true, uma coisa acontece,se for false, outra coisa acontece.
+		if(condição){
+			true
+			} else{
+				false
+
 		
