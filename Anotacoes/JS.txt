@@ -146,4 +146,17 @@ Operadores:
 			} else{
 				false
 
-		
+	Condições aninhadas: Pega uma condição composta,e adiciona outras dentro dela.(if)
+	Condições Múltiplas: Tem a possibilidade de outros valores, valores fixos.(switch)
+		switch(expressão){
+			case 1:
+				break;
+			case 2:
+			break;
+			case 3:
+				break;
+			default: 
+			break; 
+		}
+		var agora = new Date() 
+		var hora = agora.getHours() -- Pega a hora atual do sistema.
