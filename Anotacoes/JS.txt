@@ -160,3 +160,11 @@ Operadores:
 		}
 		var agora = new Date() 
 		var hora = agora.getHours() -- Pega a hora atual do sistema.
+		
+		Repetições:
+			A função se repete enquanto essa condiçõa foir verdadeira. Se for Falsa, o laço acaba.
+				while(condiçaõ){ -- Primeiro testa, depois executa o bloco.
+				}
+				
+				do{-- Primiero executa , depois testa.
+				}while(condição)
