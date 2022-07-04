@@ -168,3 +168,9 @@ Operadores:
 				
 				do{-- Primiero executa , depois testa.
 				}while(condição)
+	
+				for(inicio, teste, incremento){ -- A inicializacao, após o teste, se for verdadeiro ele vai executar o comando dentro do bloco. E depois vai se repetir, incrementando.
+				
+				}
+					
+				
