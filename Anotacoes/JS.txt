@@ -173,4 +173,17 @@ Operadores:
 				
 				}
 					
+					
+					
+	Variaveis simples conseguem armazenar apenas um valor por vez.
+	Variaveis compostas devem ser capazes de armazenar varios valores em uma mesma estrutura.
+	
+	vaga auto = [ ,  , ];
 				
+		Um vetor é uma variavel com varios espaços. Composto de elementos que é um par que agrupa o espaço da memoria, o valor colocado dentro dele e o indice.
+		
+		let num = [ ,  , ]
+		num.push(7) -- Acrescenta mais um na última posicao do vetor.
+		Num.length() - Comprimento do vetor.
+		Num.sort() - Pega todos os valores e colocar em ordem crescente
+		
