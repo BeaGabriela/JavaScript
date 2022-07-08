@@ -187,3 +187,4 @@ Operadores:
 		Num.length() - Comprimento do vetor.
 		Num.sort() - Pega todos os valores e colocar em ordem crescente
 		
+		for (let(uma variavel) num  in (vetor)valores ){ // - For simplificado. 
