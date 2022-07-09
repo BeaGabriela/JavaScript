@@ -188,3 +188,24 @@ Operadores:
 		Num.sort() - Pega todos os valores e colocar em ordem crescente
 		
 		for (let(uma variavel) num  in (vetor)valores ){ // - For simplificado. 
+		
+		Funcões: Saõ ações executadas assim que são chamadas ou em decorrência de algum evento. 
+			: Podem receber parâmetros e retornar um resultado.
+			
+			Uma ordem - Chama chamada.
+			Entrada e com a informação- Cojunto de parâmetros
+			O que precisa - Ação
+			Entregar - Retorno.
+			
+				function ação(param) -- Parametro formal. {
+							-- Ação
+					return res
+					}
+					ação(5) - Chamada - ()- parametro real;
+					
+					
+					
+			
+			
+			
+			
