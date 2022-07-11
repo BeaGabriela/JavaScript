@@ -202,8 +202,16 @@ Operadores:
 					return res
 					}
 					ação(5) - Chamada - ()- parametro real;
-					
-					
+			
+			
+			
+			**O array em javascript aceita valores de tipos diferentes dentro de um mesmo vetor.
+			
+		
+		Objetos: 
+			exemplo:
+				let amigo = {nome:'josé',sexo: 'm', peso:58.5, engordar(p){}  }
+				indice:				nome	sexo		peso	engordar()
 					
 			
 			
