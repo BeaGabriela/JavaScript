@@ -13,6 +13,7 @@
             height: 20vh;
             width: 100%;
             background-color:aquamarine;
+            color: rgb(247, 81, 81);
         }
         #cabeçalho p{
             font: normal 22pt arial;
@@ -26,19 +27,46 @@
             font: normal 15pt arial;
           
          }
-         .bolinha1{
+         .d1 div{
             height: 10vh;
-            width: 20vw;
+            width: 25vw;
             background-color:darkslategrey;
             border-radius: 50%;
             text-align: center;
+            box-shadow: 5px 5px 10px black;
+            margin: 3px;
          }
+
+         .d1 p{
+            text-align: center;
+         }
+
+         #res{
+            text-align: center;
+            margin-left: -50px;
+         }
+         #N{
+            margin-left: 36vw;
+            border-radius: 20px;
+            width: 20vw;
+         }
+         
         
             footer{
                 background-color:rgb(121, 245, 245);
                 height: 20vh;
-                width: 100%
+                width: 100%;
+                margin: 30px 0 0 0 ;
             }
+
+            .d1 div:hover{
+                background-color: rgb(255, 150, 167); 
+                color: white;
+                box-shadow: 5px 5px 10px crimson;
+                cursor: pointer;
+            }
+
+           
         
     </style>
 </head>
@@ -46,25 +74,31 @@
     <div id="cabeçalho">
         <p>Bem vindo a Web calculadora</p>
     </div>
+    <input type="search" name="N" id="N">
+    <p id="res">Resultado</p>
     <div class="d1">
-        <div class="bolinha1">1</div>
-        <div class="bolinha1">2</div>
-        <div class="bolinha1">3</div>
+        <div><p>1</p></div>
+        <div><p>2</p></div>
+        <div><p>3</p></div>
+        <div><p>*</p></div>
     </div>
     <div class="d1">
-        <div class="bolinha1">1</div>
-        <div class="bolinha1">2</div>
-        <div class="bolinha1">3</div>
+        <div><p>4</p></div>
+        <div><p>5</p></div>
+        <div><p>6</p></div>
+        <div><p>/</p></div>
     </div>
     <div class="d1">
-        <div class="bolinha1">1</div>
-        <div class="bolinha1">2</div>
-        <div class="bolinha1">3</div>
+        <div><p>7</p></div>
+        <div><p>8</p></div>
+        <div><p>9</p></div>
+         <div><p>-</p></div>
     </div>
     <div class="d1">
-        <div class="bolinha1">1</div>
-        <div class="bolinha1">2</div>
-        <div class="bolinha1">3</div>
+        <div><p>,</p></div>
+        <div><p>0</p></div>
+        <div><p>.</p></div>
+        <div><p>+</p></div>
     </div>
     
     <footer></footer>
