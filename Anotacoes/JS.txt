@@ -212,6 +212,10 @@ Operadores:
 			exemplo:
 				let amigo = {nome:'josé',sexo: 'm', peso:58.5, engordar(p){}  }
 				indice:				nome	sexo		peso	engordar()
+				
+				
+				
+				pexels- imagens gratuitas.
 					
 			
 			
