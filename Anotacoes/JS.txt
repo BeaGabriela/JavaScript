@@ -21,10 +21,16 @@ Tipos primitivos:
 boolean
 number -- infinity, nan
 String
+const -- Não se pode sobreescrever, é uma constante.
 Null
 underfined
 object(Array)
 function
+var - global, para todo o codigo.
+let - local, tipo for...
+
+
+forEach(funcão para ele executar)callback = chama de volta a funcao
 
 	  window.prompt retorna uma String, é necessário converter.
       "+" Serve para soma quando for "NUMBER + NUMBER"
@@ -217,7 +223,7 @@ Operadores:
 				
 				pexels- imagens gratuitas.
 					
-			
+	.split(" ") -- Transforma em um vetor de acordo com o que esta dentro dos parentes.
 			
 			
 			
