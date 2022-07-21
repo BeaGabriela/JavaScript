@@ -11,7 +11,6 @@ function carregar(){
     // var mes = 12//data.getMonth() + 1
     msg.innerHTML = `Hoje é dia ${dia} / ${mes}`
     
-function verificar(){
     if(dia == 14 && mes == 04){
     document.body.style.background = '#a36e5c'
     img.src= './img/pascoa.jpg'
@@ -54,5 +53,7 @@ function verificar(){
         img.src = './img/gato.png'
         msg1.innerHTML = 'Levanta a cabeça e luta mais um dia. Tu é forte.'
     }
+    msg.style.textAlign= 'center'
+  
 }
-}
+

@@ -82,7 +82,7 @@ Operadores:
 		
 		
 		DOM --> Document Object Model:
-			É um modelo de objetos para docuemntos. Basicamente é um cojunto de objetos dentrodo seu navegador que vai dar acesso
+			É um modelo de objetos para docuemntos. Basicamente é um cojunto de objetos dentro do seu navegador que vai dar acesso
 			aos componentes  internos do website.
 			
 			O DOM não funciona dentro do node.js. O dom está presente quando roda JavaScript no navegador.
@@ -225,5 +225,5 @@ Operadores:
 					
 	.split(" ") -- Transforma em um vetor de acordo com o que esta dentro dos parentes.
 			
-			
+			jaison - Uma estrutura de dados . -- {}			para acessar algo dentro dela, deve usar como o nome da variavel que contem tudo '.' a variavel. Exemplo: Aluno.notas.forEach (Acessa o vetor notas)
 			
