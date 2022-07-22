@@ -41,32 +41,59 @@ busca.addEventListener('keyup', buscarNome)
 
 
 function buscarNome() {
-    let encontrei = false
+     let encontrei = false
 
     linhas.forEach((linha) => {
         let temp = linha.querySelector('td')
         if (temp != null) {
+            //1* Tentativa:
+            
+            if (linha.innerHTML.toLowerCase().includes(busca.value.toLowerCase())) {
+                linha.style.display = 'table-row'
+
+              
+               linha.style.color = 'red'
+
+           } else {
+               linha.style.display = 'none'
+               res.innerHTML = 'Não foi possivel encontrar o valor buscado.'
+              
+           }
+
+       }
+
+
+   })
+}
+    
+
+        //2* Tentativa:
+
             // if (temp.innerHTML.toLowerCase() == busca.value.toLowerCase()) {
             // res.innerHTML = `Encontrei ${busca.value}`
             //     res.style.margin = '40px 0'
             // res.style.color = 'red'
             //     encontrei = true
 
-            if (temp.innerHTML.toLowerCase().includes(busca.value.toLowerCase())) {
-                 linha.style.display = ''
-                linha.style.fontWeight = 'bold'
-                linha.style.color = 'red'
+//             if (temp.innerHTML.toLowerCase().includes(busca.value.toLowerCase())) {
+//                  linha.style.display = 'table-row'
+//                 linha.style.fontWeight = 'bold'
+//                 linha.style.color = 'red'
 
-            } else {
-                linha.style.display = 'none'
-            }
+//             } else {
+//                 linha.style.display = 'none'
+//             }
 
-        }
+//         }
 
 
-    })
-}
+//     })
+// }
     // })
+
+
+    //3* Tentaiva:
+    
 
 //     if (!encontrei) {
 //         res.innerHTML = `Não Encontrei ${busca.value}`
